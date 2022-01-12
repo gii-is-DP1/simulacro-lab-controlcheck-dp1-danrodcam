@@ -18,8 +18,8 @@ INSERT INTO vets(id, first_name,last_name) VALUES (6, 'Sharon', 'Jenkins');
 INSERT INTO prtypes(id,name) VALUES (1,'Accessories');
 INSERT INTO prtypes(id,name) VALUES (2,'Food');
 
-INSERT INTO products(id,name,price,type_id) VALUES (1,'Wonderful dog collar',17.25,1);
-INSERT INTO products(id,name,price,type_id) VALUES (2,'Super Kitty Cookies',50.0,2);
+INSERT INTO products VALUES (1,'Wonderful dog collar',17.25,1);
+INSERT INTO products VALUES (2,'Super Kitty Cookies',50.0,2);
 
 
 
